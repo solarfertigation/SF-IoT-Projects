@@ -1,1 +1,1 @@
-# Repo Dev Solar Fertigation IoT Projects
+# Repo Dev SolarFertigation IoT Projects
