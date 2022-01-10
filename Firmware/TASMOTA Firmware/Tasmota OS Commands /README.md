@@ -9,6 +9,7 @@ Backlog SSID2 <SSID Network Name>; Password2 <SSID Network Password>;
 Backlog MqttHost <mqtthost>; MqttUser <mqttuser>; MqttPassword <mqttpassword>; Topic <customtopic>; SetOption53 1; PowerRetain on
 ```
 > Pairing ZigBee Device
+
 ON
 ```
 ZbPermitJoin 1
