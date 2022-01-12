@@ -29,5 +29,9 @@ ZbName <deviceid>, <devicename>
 ```
 ZbForget <deviceid>
 ```
-
+> Send Command to Gateway & Device
+From Console
+```
+ZbSend { "device":"deviceid", "send":{"Power":0/1} }
+```
 
