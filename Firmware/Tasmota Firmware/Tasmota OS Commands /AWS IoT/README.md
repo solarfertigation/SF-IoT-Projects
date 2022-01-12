@@ -4,9 +4,10 @@
 ```
 tele/ZBEGatewayName/deviceid(####)/SENSOR
 ```
+
 > Send Command from MQTT
 ```
-cmnd/ZbEGatewayNAme/ZbSend```
+cmnd/ZbEGatewayName/ZbSend
 ```
 
 > PayLoad Format
