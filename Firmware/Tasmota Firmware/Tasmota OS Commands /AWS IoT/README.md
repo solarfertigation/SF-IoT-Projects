@@ -14,5 +14,5 @@ cmnd/ZbEGatewayName/ZbSend
 
 > PayLoad Format
 ```
-{"Device":"deviceid","Send":{"Power":0/1}} 
+{"Device":"deviceid(0x####)","Send":{"Power":0/1}} 
 ```
