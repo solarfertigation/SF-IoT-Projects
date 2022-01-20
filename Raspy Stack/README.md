@@ -2,7 +2,7 @@
 
 > Mosquitto 
 ```
-sudo apt-get install mosquitto
+sudo apt-get install -y mosquitto
 ```
 
 ```
@@ -18,9 +18,25 @@ sudo service mosquitto restart
 ```
 
 
+> Mosquitto Clients
+```
+sudo apt-get install mosquitto-clients
+```
+
+> Mosquitto Example Pub/Sub
+```
+mosquitto_pub -h indirizzo-ip_zbe -u USERNAME -P PASSWORD -t "cmnd/ZBEName/ZbSend
+ -m "{"Device":"deviceid(0x####)","Send":{"Power":0/1}}"
+ ```
+
+```
+mosquitto_sub -v -h indirizzo-ip_zbe -u USERNAME -P PASSWORD -t "tele/ZBEName/DeviceID"
+```
+
+
 > InfluxDB 
 ```
-sudo apt-get install influxdb
+sudo apt-get install -y influxdb
 ```
 
 ```
@@ -35,9 +51,10 @@ sudo service influxdb status
 sudo service influxdb restart
 ```
 
+
 > TeleGraf
 ```
-sudo apt-get install telegraf
+sudo apt-get install -y telegraf
 ```
 
 ```
@@ -55,7 +72,7 @@ sudo service telegraf restart
 
 > Grafana
 ```
-sudo apt-get install grafana
+sudo apt-get install -y grafana
 ```
 
 ```
