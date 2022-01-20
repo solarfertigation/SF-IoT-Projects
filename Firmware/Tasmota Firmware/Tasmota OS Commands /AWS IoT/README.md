@@ -4,12 +4,12 @@
 
 > Sensors Topics Tasmota
 ```
-tele/tele/ZBEGatewayName/deviceid(####)/INFO1
-tele/tele/ZBEGatewayName/deviceid(####)/INFO2
-tele/tele/ZBEGatewayName/deviceid(####)/INFO3
-tele/tele/ZBEGatewayName/deviceid(####)/LWT
-tele/tele/ZBEGatewayName/deviceid(####)/STATE
-tele/tele/ZBEGatewayName/deviceid(####)/SENSOR
+tele/ZBEGatewayName/deviceid(####)/INFO1
+tele/ZBEGatewayName/deviceid(####)/INFO2
+tele/ZBEGatewayName/deviceid(####)/INFO3
+tele/ZBEGatewayName/deviceid(####)/LWT
+tele/ZBEGatewayName/deviceid(####)/STATE
+tele/ZBEGatewayName/deviceid(####)/SENSOR
 ```
 
 > Actuators Topics Tasmota
