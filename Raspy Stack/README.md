@@ -1,6 +1,11 @@
 # Mosquitto - InfluxDB - Telegraf - Grafana
 
 > Mosquitto 
+Config File
+```
+sudo nano ect/mosquitto/mosquitto.config
+```
+
 ```
 sudo apt-get install -y mosquitto
 ```
@@ -30,11 +35,16 @@ mosquitto_pub -h indirizzo-ip_zbe -u USERNAME -P PASSWORD -t "cmnd/ZBEName/ZbSen
  ```
 
 ```
-mosquitto_sub -v -h indirizzo-ip_zbe -u USERNAME -P PASSWORD -t "tele/ZBEName/DeviceID"
+mosquitto_sub -v -h indirizzo-ip_zbe -u USERNAME -P PASSWORD -t "tele/ZBEName/DeviceID(####)/SENSOR"
 ```
 
 
 > InfluxDB 
+Config File
+```
+sudo nano ect/influxdb/influxdb.config
+```
+
 ```
 sudo apt-get install -y influxdb
 ```
