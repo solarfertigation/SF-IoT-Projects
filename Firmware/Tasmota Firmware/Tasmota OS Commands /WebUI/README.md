@@ -13,6 +13,11 @@ Backlog SSID2 <SSID Network Name>; Password2 <SSID Network Password>;
 Backlog MqttHost <mqtthost>; MqttUser <mqttuser>; MqttPassword <mqttpassword>; Topic <customtopic>; SetOption53 1; PowerRetain on
 ```
 
+> Set Static IP Address Configuration 
+```
+Backlog IPAddress1 TasmotaIP; IPAddress2 SubnetMusk; IPAddress3 GatewayIP; IPAddress4 DNS1; IPAddress5 DNS2; restart 1
+```
+
 > Pairing ZigBee Device
 
 ON
