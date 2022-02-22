@@ -15,7 +15,7 @@ Backlog MqttHost <mqtthost>; MqttUser <mqttuser>; MqttPassword <mqttpassword>; T
 
 > Set Static IP Address Configuration 
 ```
-Backlog IPAddress1 TasmotaIP; IPAddress2 SubnetMusk; IPAddress3 GatewayIP; IPAddress4 DNS1; IPAddress5 DNS2; restart 1
+Backlog <TasmotaIP>; IPAddress2 <SubnetMusk>; IPAddress3 <GatewayIP>; IPAddress4 <DNS1>; IPAddress5 <DNS2>; restart 1
 ```
 
 > Pairing ZigBee Device
