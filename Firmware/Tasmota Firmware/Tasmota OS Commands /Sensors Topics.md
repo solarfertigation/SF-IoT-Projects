@@ -51,5 +51,5 @@ tele/zbe2/0061/SENSOR
 ```
 WL-PSA
 ```
-tele/zbe1/89EB/SENSOR
+tele/zbe2/89EB/SENSOR
 ```
