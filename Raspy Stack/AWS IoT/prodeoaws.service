@@ -1,10 +1,9 @@
 [Unit]
 Description=Prodeo AWS Service
-Documentation=
 After=multi-user.target
 
 [Service]
-WorkingDirectory=/home/pi/prodeo/aws-iot/certs/
+WorkingDirectory=/home/pi/Prodeo/AWS/
 Type=simple
 ExecStart=sudo ./start.sh
 User=pi
