@@ -72,7 +72,7 @@ TH-PSA1
 ```
 tele/zbe2/C3D8/SENSOR
 
-mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/C3D8/SENSOR" -m '{"ZbReceived":{"TH-PSA1":{"Device":"0xC3C8","Name":"TH-PSA1","Temperature": 25.0, "Humidity":62.0,"Endpoint":1,"LinkQuality":65}}}'
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/C3D8/SENSOR" -m '{"ZbReceived":{"TH-PSA1":{"Device":"0xC3D8","Name":"TH-PSA1","Temperature": 25.0, "Humidity":62.0,"Endpoint":1,"LinkQuality":65}}}'
 
 mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/C3D8/SENSOR"
 ```
@@ -81,7 +81,7 @@ TH-PSA2
 ```
 tele/zbe2/F117/SENSOR
 
-mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/F117/SENSOR" -m '{"ZbReceived":{"TH-PSA2":{"Device":"0xC3C8","Name":"TH-PSA2","Temperature": 22.7, "Humidity":57.7,"Endpoint":1,"LinkQuality":65}}}'
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/F117/SENSOR" -m '{"ZbReceived":{"TH-PSA2":{"Device":"0xF117","Name":"TH-PSA2","Temperature": 22.7, "Humidity":57.7,"Endpoint":1,"LinkQuality":65}}}'
 
 mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/F117/SENSOR"
 ```
@@ -90,7 +90,7 @@ TH-PSA3
 ```
 tele/zbe2/0864/SENSOR
 
-mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/0864/SENSOR" -m '{"ZbReceived":{"TH-PSA3":{"Device":"0xC3C8","Name":"TH-PSA3","Temperature": 25.0, "Humidity":62.0,"Endpoint":1,"LinkQuality":65}}}'
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/0864/SENSOR" -m '{"ZbReceived":{"TH-PSA3":{"Device":"0x0864","Name":"TH-PSA3","Temperature": 25.0, "Humidity":62.0,"Endpoint":1,"LinkQuality":65}}}'
 
 mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/0864/SENSOR"
 ```
@@ -99,7 +99,7 @@ TH-PSA4
 ```
 tele/zbe2/1A94/SENSOR
 
-mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1A94/SENSOR" -m '{"ZbReceived":{"TH-PSA4":{"Device":"0xC3C8","Name":"TH-PSA4","Temperature": 22.7, "Humidity":57.7,"Endpoint":1,"LinkQuality":65}}}'
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1A94/SENSOR" -m '{"ZbReceived":{"TH-PSA4":{"Device":"0x1A94","Name":"TH-PSA4","Temperature": 22.7, "Humidity":57.7,"Endpoint":1,"LinkQuality":65}}}'
 
 mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1A94/SENSOR"
 ```
