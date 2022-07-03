@@ -65,6 +65,7 @@ mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe1/CD10/SENSOR" 
 mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe1/CD10/SENSOR"
 ```
 
+
 > ZBE2 (ZigBee Ethernet Gateway2) - PTA
 
 TH-PSA1
@@ -107,7 +108,7 @@ WL-PSA
 ```
 tele/zbe2/1FFC/SENSOR
 
-mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1FFC/SENSOR" -m '{"ZbReceived":{"WL-PSA":{"Device":"0xCD10","ModelId":"lumi.sensor_wleak.aq1","BatteryVoltage":3,"BatteryPercentage":100,"Water":0,"Endpoint":1,"LinkQuality":155}}}'
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1FFC/SENSOR" -m '{"ZbReceived":{"WL-PSA":{"Device":"0x1FFC","ModelId":"lumi.sensor_wleak.aq1","BatteryVoltage":3,"BatteryPercentage":100,"Water":0,"Endpoint":1,"LinkQuality":155}}}'
 
 mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1FFC/SENSOR"
 ```
