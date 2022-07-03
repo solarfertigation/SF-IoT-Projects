@@ -70,20 +70,44 @@ mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe1/CD10/SENSO
 TH-PSA1
 ```
 tele/zbe2/C3D8/SENSOR
+
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/C3D8/SENSOR" -m '{"ZbReceived":{"TH-PSA1":{"Device":"0xC3C8","Name":"TH-PSA1","Temperature": 25.0, "Humidity":62.0,"Endpoint":1,"LinkQuality":65}}}'
+
+mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/C3D8/SENSOR"
 ```
+
 TH-PSA2
 ```
 tele/zbe2/F117/SENSOR
+
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/F117/SENSOR" -m '{"ZbReceived":{"TH-PSA2":{"Device":"0xC3C8","Name":"TH-PSA2","Temperature": 22.7, "Humidity":57.7,"Endpoint":1,"LinkQuality":65}}}'
+
+mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/F117/SENSOR"
 ```
+
 TH-PSA3
 ```
 tele/zbe2/0864/SENSOR
+
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/0864/SENSOR" -m '{"ZbReceived":{"TH-PSA3":{"Device":"0xC3C8","Name":"TH-PSA3","Temperature": 25.0, "Humidity":62.0,"Endpoint":1,"LinkQuality":65}}}'
+
+mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/0864/SENSOR"
 ```
+
 TH-PSA4
 ```
 tele/zbe2/1A94/SENSOR
+
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1A94/SENSOR" -m '{"ZbReceived":{"TH-PSA4":{"Device":"0xC3C8","Name":"TH-PSA4","Temperature": 22.7, "Humidity":57.7,"Endpoint":1,"LinkQuality":65}}}'
+
+mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1A94/SENSOR"
 ```
+
 WL-PSA
 ```
 tele/zbe2/1FFC/SENSOR
+
+mosquitto_pub -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1FFC/SENSOR" -m '{"ZbReceived":{"WL-PSA":{"Device":"0xCD10","ModelId":"lumi.sensor_wleak.aq1","BatteryVoltage":3,"BatteryPercentage":100,"Water":0,"Endpoint":1,"LinkQuality":155}}}'
+
+mosquitto_sub -v -h 10.0.0.126 -u prodeo -P prodeo2022! -t "tele/zbe2/1FFC/SENSOR"
 ```
