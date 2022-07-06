@@ -11,14 +11,19 @@ nvm install --lts
 sudo yum install git -y
 ```
 
+> Install Angular
+```
+npm install -g @angular/cli
+```
+
 > Install Nginx
 ```
 sudo amazon-linux-extras install nginx1
 ```
 
-> Install Angular
+> Install Nginx
 ```
-npm install -g @angular/cli
+sudo amazon-linux-extras install nginx1
 ```
 
 
