@@ -1,6 +1,6 @@
 # Tp-Link 4G Router Configuration
 > Admin Panel
-- Url: (http://10.0.0.22)
+- Url: http://10.0.0.22
 - Password: admin
 
 > Wi-Fi 
