@@ -20,10 +20,16 @@ npm install -g @angular/cli
 ```
 sudo amazon-linux-extras install nginx1
 ```
-
-> Install Nginx
+> Install Certbot-Nginx
 ```
-sudo amazon-linux-extras install nginx1
+sudo yum update
+sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+sudo yum-config-manager --enable epel
+sudo yum install certbot python3-certbot-nginx
 ```
 
+> Install Certs SSL/TLS
+```
+sudo certbot --nginx -d example.com -d www.example.com
+```
 
