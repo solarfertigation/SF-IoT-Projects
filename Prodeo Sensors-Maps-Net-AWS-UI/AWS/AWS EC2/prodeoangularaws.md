@@ -25,7 +25,8 @@ sudo amazon-linux-extras install nginx1
 sudo yum update
 sudo yum install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 sudo yum-config-manager --enable epel
-sudo yum install certbot python3-certbot-nginx
+sudo yum install certbot
+sudo yum install certbot-nginx
 ```
 
 > Install Certs SSL/TLS
